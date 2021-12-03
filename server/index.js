@@ -22,5 +22,4 @@ nextApp.prepare().then(async () => {
     if (err) throw err;
     console.log(`> Ready on localhost:${port}`);
   });
-  app.disable('x-powered-by');
 });
